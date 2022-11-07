@@ -1,0 +1,285 @@
+.global-theme {
+    background-color:#1a1a1a;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    padding:0;
+}
+.global-theme button {
+    background-color: transparent;
+    color: white;
+}
+.global-theme ul {
+    list-style-type: none;
+}
+.full{
+    display:flex;
+    flex-direction: column;
+    max-height: 10px;
+    width: 100%;
+    font-size: 10px;
+    align-items: flex-start;
+}
+.top-bar{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main-area{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.middle-area{
+    display:flex;
+    flex-shrink:10000;
+    flex-grow:1;
+    min-width: 440px;
+}
+
+.nav-bar{
+    width: 100%;
+    display:flex;
+    list-style: none;
+    justify-content:space-around;
+}
+
+.action-button-area{
+    display:flex
+}
+
+.action-area{
+    display:flex;
+    justify-self: flex-end;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.log-area{
+    max-width: 222px;
+    min-width: 135px;
+    display:flex;
+    justify-self: right;
+    flex-shrink: 1;
+    flex-grow: 0;
+    flex-direction: column;
+}
+.log-controls {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.clear-log-button {
+    justify-self: stretch;
+    align-self: stretch;
+}
+.log-toggles ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.log-contents {
+display: flex;
+flex-flow: column nowrap;
+}
+.bottom-bar{
+display:flex;
+justify-self: flex-end;
+justify-content: space-between;
+width: 100%;
+}
+
+.save-bar{
+    display:flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: none;
+    list-style-type: none;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.buff-bar{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content:flex-start;
+    min-width: 0;
+    list-style: outside none none;
+    justify-self: flex-start;
+
+}
+
+.dashed-button {
+    background-color: transparent;
+    border:0 2em #888;
+    border-style: solid dashed;
+    border-color:#888;
+    border-width: 1px;
+    border-radius: 4px;
+
+}
+
+.resource-list {
+    background-color:#1a1a1a;
+    list-style: outside none none;
+    max-height: 100%;
+    justify-self:left;
+    flex-shrink: 0;
+    width:288px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: none;
+    height: 50%;
+}
+.resource-list ul {
+    padding: none;
+    width: 100%;
+    max-height: 80%;
+    padding-inline-start: 0;
+}
+.resource-category {
+    width: fit-content;
+    padding: 0;
+    background-color:#060a33;
+    list-style: outside none none;
+}
+.resource-category-arrow {
+    width: fit-content;
+}
+.resource-item{
+    padding: 0;
+    background-color: #1a1a1a;
+    list-style: outside none none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.resource-item li {
+    font-size: 12px;
+    color:#888;
+}
+.link-bar{
+    display:flex;
+    flex-direction: row;
+    list-style: outside none none;
+    justify-self: right;
+}
+.hotbar{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+.full-button{
+    color: white;
+    background-color: #1a1a1a;
+}
+.buff {
+    max-width: 40px;
+    justify-content: center;
+    border:1px
+}
+
+.hotbar-presets-box {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: none;
+    width: fit-content;
+    justify-self: flex-end;
+    padding: 0;
+}
+.hotbar-button {
+    flex-direction: column;
+    width: 61px;
+    padding: 0;
+}
+.hotbar-button-bottom-row {
+    padding: 0;
+}
+.hotbar-presets {
+    list-style:none;
+    padding: 0;
+
+}
+.action-controls {
+    background-color: #1a1a1a;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.green-button {
+    background-color:green;
+}
+.resource-header {
+    display: flex;
+    background-color: #060a33;
+    padding: 0;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.hotbar-button1 {
+    flex-direction: column;
+    width: 61px;
+    padding: 0;
+}
+.hotbar-button2 {
+    flex-direction: column;
+    width: 61px;
+    padding: 0;
+}
+.hotbar-button3 {
+    flex-direction: column;
+    width: 61px;
+    padding: 0;
+}
+.hotbar-button4 {
+    flex-direction: column;
+    width: 61px;
+    padding: 0;
+}
+.hotbar-button5 {
+    flex-direction: column;
+    width: 61px;
+    padding: 0;
+}
+.hotbar-button6 {
+    flex-direction: column;
+    width: 61px;
+    padding: 0;
+}
+.hotbar-button7 {
+    flex-direction: column;
+    width: 61px;
+    padding: 0;
+}
+.hotbar-button8 {
+    flex-direction: column;
+    width: 61px;
+    padding: 0;
+}
+.hotbar-button9 {
+    flex-direction: column;
+    width: 61px;
+    padding: 0;
+}
+.hotbar-button0 {
+    flex-direction: column;
+    width: 61px;
+    padding: 0;
+}

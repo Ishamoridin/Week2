@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theory of Magic</title>
+    <meta name="description" content="Magic idle clicker for rpg enthusiasts">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap" rel="stylesheet">
+    <link href="/ArcanumClonestyle.css" rel="stylesheet">
+
+
+</head>
+<body class="global-theme">
+    <div class="full">
+        <ul class="top-bar">
+            <li class="save-bar"><ul class="save-bar">
+                <li><a class="full-button"><button>Save</button></a></li>
+                <li><a class="full-button"><button>Load</button></a></li>
+                <li><a class="full-button"><button>Get Save</button></a></li>
+                <li><a class="full-button"><button>Hall Save</button></a></li>
+                <li><a class="dashed-button"><button>[Load Save]</button></a></li>
+                <li><a class="dashed-button"><button>[Fix Save]</button></a></li>
+                <li><a class="dashed-button"><button>[Check Save]</button></a></li>
+                <li><button>Wipe Wizard</button></li>
+            </ul></li>
+            <li><ul class="buff-bar">
+                <li class="buff">100 Mana</li>
+                <li class="buff">54 Abundance</li>
+                <li class="buff">106 Pulsing Light II</li>
+            </ul></li>
+            <li><ul class="link-bar">
+                <li><a href="https://arcanumtesting.gitlab.io/arcanum/">Test Site</a></li>
+                <li><a href="https://discord.gg/bCABC96">Discord</a></li>
+                <li><a href="https://gitlab.com/mathiashjelm/arcanum/-/wikis/home">Wiki</a></li>
+                <li><a href="https://www.reddit.com/r/wizrobe/">Reddit</a></li>
+                <li>Version: stable 0.10.18</li>
+                <li><button>⚙</button></li>
+            </ul></li></ul>        
+        <div class="main-area">
+            <div class="resource-list">
+                <ul>
+                    <ul class="resource-header"><li class="resource-category">Other<li class="resource-category">▼</li></ul><ul class ="resource-category">
+                        <li><ul class="resource-item"><li>Gold</li><li>0/1552</li></ul></li>
+                        <li><ul class="resource-item"><li>Research</li><li>44305/44305</li></ul></li>
+                        <li><ul class="resource-item"><li>Arcana</li><li>80/80</li></ul></li>
+                        <li><ul class="resource-item"><li>Starcharts</li><li>290/290</li></ul></li>
+                        <li><ul class="resource-item"><li>Tapestries</li><li>28/41</li></ul></li>
+                        <li><ul class="resource-item"><li>Schematics</li><li>1/3</li></ul></li> 
+                        <li><ul class="resource-item"><li>Star Shard</li><li>1/3</li></ul></li>
+                        <li><ul class="resource-item"><li>Dreams</li><li>3/3</li></ul></li>
+                        <li><ul class="resource-item"><li>🎃Cobwebs</li><li>10/10</li></ul></li>
+                        <li><ul class="resource-item"><li>🎃Jack O'Lantern</li><li>16/16</li></ul></li>
+                        <li><ul class="resource-item"><li>🎃Pumpkin Seeds</li><li>40/40</li></ul></li>
+                        <li><ul class="resource-item"><li>🎃Pumpkins</li><li>82/82</li></ul></li>
+                        <li><ul class="resource-item"><li>🎃Treat</li><li>100/100</li></ul></li>
+                    </ul></li>
+                    <ul class="resource-header"><li class="resource-category">Books<li class="resource-category-arrow">▼</li></ul><ul class ="resource-category">
+                        <li><ul class="resource-item"><li>Scrolls</li><li>195/195</li></ul></li>
+                        <li><ul class="resource-item"><li>Codices</li><li>1065/1065</li></ul></li>
+                        <li><ul class="resource-item"><li>Tomes</li><li color=>160/160</li></ul></li>
+                    </ul></li>
+                    <ul class="resource-header"><li class="resource-category">Runes<li class="resource-category-arrow">▼</li></ul><ul class ="resource-category">
+                        <li><ul class="resource-item"><li>Rune Stones</li><li>45/45</li></ul></li>
+                        <li><ul class="resource-item"><li>Flame Runes</li><li>30/30</li></ul></li>
+                        <li><ul class="resource-item"><li>Water Runes</li><li>30/30</li></ul></li>
+                        <li><ul class="resource-item"><li>Air Runes</li><li>30/30</li></ul></li>
+                        <li><ul class="resource-item"><li>Earth Runes</li><li>30/30</li></ul></li>
+                        <li><ul class="resource-item"><li>Chaos Runes</li><li>10/10</li></ul></li>
+                    </ul></li>
+                    <ul class="resource-header"><li class="resource-category">Necromancy<li class="resource-category-arrow">▼</li></ul><ul class ="resource-category">
+                        <li><ul class="resource-item"><li>Bodies</li><li>3/3</li></ul></li>
+                        <li><ul class="resource-item"><li>Bones</li><li>0/10</li></ul></li>
+                        <li><ul class="resource-item"><li>Skulls</li><li>2/5</li></ul></li>
+                        <li><ul class="resource-item"><li>Bone Dust</li><li>0/25</li></ul></li>
+                        <li><ul class="resource-item"><li>Souls</li><li>1/2</li></ul></li>
+                    </ul></li>
+                    <ul class="resource-header"><li class="resource-category">Gems<li class="resource-category-arrow">▼</li></ul><ul class ="resource-category">
+                        <li><ul class="resource-item"><li>Gemstones</li><li>326/326</li></ul></li>
+                        <li><ul class="resource-item"><li>Arcane Gems</li><li>151/151</li></ul></li>
+                        <li><ul class="resource-item"><li>Fire Gems</li><li>149/149</li></ul></li>
+                        <li><ul class="resource-item"><li>Water Gems</li><li>149/149</li></ul></li>
+                        <li><ul class="resource-item"><li>Nature Gems</li><li>149/149</li></ul></li>
+                        <li><ul class="resource-item"><li>Earth Gems</li><li>149/149</li></ul></li>
+                        <li><ul class="resource-item"><li>Air Gems</li><li>149/149</li></ul></li>
+                        <li><ul class="resource-item"><li>Shadow Gems</li><li>151/151</li></ul></li>
+                        <li><ul class="resource-item"><li>Light Gems</li><li>149/149</li></ul></li>
+                        <li><ul class="resource-item"><li>Spirit Gems</li><li>151/151</li></ul></li>
+                        <li><ul class="resource-item"><li>Blood Gems</li><li>78/78</li></ul></li>
+                        <li><ul class="resource-item"><li>Chaos Gems</li><li>79/79</li></ul></li>
+                    </ul></li>
+                    <ul class="resource-header"><li class="resource-category">Reagent<li class="resource-category-arrow">▼</li></ul><ul class ="resource-category">
+                        <li><ul class="resource-item"><li>Ichor</li><li>5/5</li></ul></li>
+                        <li><ul class="resource-item"><li>Herb</li><li>8/101</li></ul></li>
+                        <li><ul class="resource-item"><li>Potion Base</li><li>4/4</li></ul></li>
+                    </ul></ul>
+                </div>
+            
+            <div class="middle-area">
+                <div class="nav-bar">
+                    <ul class="nav-bar">
+                        <li>Main</li>
+                        <li><a href=#>Skills</a></li>
+                        <li><a href=#>Home</a></li>
+                        <li><a href=#>Adventure</a></li>
+                        <li><a href=#>Players</a></li>
+                        <li><a href=#>Spells</a></li>
+                        <li><a href=#>Equip</a></li>
+                        <li><a href=#>Bestiary</a></li>
+                    </ul>
+                </div>
+                <div class="dynamic-area"></div>
+            </div>
+            <div class="action-area">
+                <div class="action-controls">
+                    <li class="button"><button>Stop All</button></li>
+                    <li class="button"><button>Commune</button></li>
+                    <li class="button"><ul class="action-controls">
+                        <li class="button"><button>Focus</button></li>
+                        <li class="green-button"><button>Auto Focus</button></li>
+                    </ul>
+                </div>
+                <div class="current-actions"></div>
+                <div class="action-resources"></div>
+            </div>
+            <div class="log-area">
+                <div class="log-controls">
+                    <div class="clear-log-button"><button>Clear</button></div>
+                    <div class="log-toggles"><ul>
+                        <li><input type="checkbox">Event</li>
+                        <li><input type="checkbox">Unlock</li>
+                        <li><input type="checkbox">Loot</li>
+                        <li><input type="checkbox">Combat</li>
+                    </ul></div>
+                </div>
+                <div class="log-content">
+                    <li>Skill Unlocked: Pyromancy</li>
+                    <li>Upgrade Unlocked: Cooking Pot</li>
+                    <li>Focus Improved (x6)</li>
+                    <li>Upgrade Unlocked: Speak To Birds</li>
+                    <li>Focus Improved (x3)</li>
+                    <li>Class Unlocked: Dark Magician</li>
+                    <li>Focus Improved (x3)</li>
+                    <li>Action Unlocked: Sell Gem</li>
+                    <li>Resource Unlocked: Gemstones</li>
+                    <li>Upgrade Unlocked: Crystal Ball</li>
+                    <li>Focus Improved (x4)</li>
+                    <li>Action Unlocked: Murder</li>
+                    <li>Focus Improved (x7)</li>
+                    <li>Spell Unlocked: Dark Bolt</li>
+                    <li>Action Unlocked: Vile Experiment</li>
+                    <li>Resource Unlocked: Shadow</li>
+                    <li>Prestidigitation Improved (x40)</li>
+                    <li>Furniture Unlocked: Campfire</li>
+                    <li>Furniture Unlocked: Graveyard</li>
+                    <li>Furniture Unlocked: Pond</li>
+                    <li>Furniture Unlocked: Iron Cell</li>
+                    <li>Furniture Unlocked: Fountain</li>
+                    <li>Furniture Unlocked: Fireplace</li>
+                    <li>Furniture Unlocked: Bonfire</li>
+                    <li>Furniture Unlocked: Treasure Room</li>
+                    <li>Furniture Unlocked: Vault</li>
+                    <li>Prestidigitation Improved (x4)</li>
+                </div>
+            </div>
+        </div>
+    
+        <div class="bottom-bar">
+            <div class="hotbar">
+                <ul class="hotbar">
+                    <div button1><li><ul class="hotbar-button"><li class="hotbar-button1">M</li><li><ul class="hotbar-buttom-bottom-row"><li>15</li><li><input type="checkbox"></li></ul></li></ul></li></div>
+                    <div button2><li><ul class="hotbar-button"><li class="hotbar-button2">A</li><li><ul class="hotbar-buttom-bottom-row"><li><li>0</li><input type="checkbox"></li></ul></li></ul></li></div>
+                    <div button3><li><ul class="hotbar-button"><li class="hotbar-button3">GF</li><li><ul class="hotbar-buttom-bottom-row"><li><li>0</li><input type="checkbox"></li></ul></li></ul></li></div>
+                    <div button4><li><ul class="hotbar-button"><li class="hotbar-button4">U</li><li><ul class="hotbar-buttom-bottom-row"><li><li>0</li><input type="checkbox"></li></ul></li></ul></li></div>
+                    <div button5><li><ul class="hotbar-button"><li class="hotbar-button5">PL</li><li><ul class="hotbar-buttom-bottom-row"><li><li>0</li><input type="checkbox"></li></ul></li></ul></li></div>
+                    <div button6><li><ul class="hotbar-button"><li class="hotbar-button6">DO</li><li><ul class="hotbar-buttom-bottom-row"><li><li>0</li><input type="checkbox"></li></ul></li></ul></li></div>
+                    <div button7><li><ul class="hotbar-button"><li class="hotbar-button7">DO</li><li><ul class="hotbar-buttom-bottom-row"><li><li>0</li><input type="checkbox"></li></ul></li></ul></li></div>
+                    <div button8><li><ul class="hotbar-button"><li class="hotbar-button8">VO</li><li><ul class="hotbar-buttom-bottom-row"><li><li>0</li><input type="checkbox"></li></ul></li></ul></li></div>
+                    <div button9><li><ul class="hotbar-button"><li class="hotbar-button9">BC</li><li><ul class="hotbar-buttom-bottom-row"><li><li>0</li><input type="checkbox"></li></ul></li></ul></li></div>
+                    <div button0><li><ul class="hotbar-button"><li class="hotbar-button0">F</li><li><ul class="hotbar-buttom-bottom-row"><li><li>0</li><input type="checkbox"></li></ul></li></ul></li></div>
+                </ul>
+            </div>
+            <div class="hotbar-presets-box"><ul class="hotbar-presets-box">
+                <li class="hotbar-presets">Preset 1<ul class="hotbar-presets"><li><button>Save</button></li><li><button>Load</button></li></ul></li>
+                <li class="hotbar-presets">Preset 1<ul class="hotbar-presets"><li><button>Save</button></li><li><button>Load</button></li></ul></li>
+                <li class="hotbar-presets">Preset 1<ul class="hotbar-presets"><li><button>Save</button></li><li><button>Load</button></li></ul></li>
+                <li class="hotbar-presets"><button>Suspend</button></li>
+            </ul></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

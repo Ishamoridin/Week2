@@ -1,0 +1,142 @@
+.square {
+    width: 300px;
+    height: 100px;
+    background-color: #0000FFFF;
+    animation-name: button;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.button1{
+background-color:red ;
+color: white;
+padding: 10px;
+}
+
+.button2{
+
+}
+
+.button3{
+
+}
+
+.button4{
+
+}
+
+.square:hover {
+    background-color: #0000FF99;
+    }
+
+@keyframes button {
+    0% {
+        background-color: blueviolet;
+        box-shadow: 6px 6px 0 darkgrey;
+    }
+    50% {
+        background-color: aqua;
+        box-shadow: 6px 6px 0 darkslategrey;
+    }
+    100% {
+        background-color: whitesmoke;
+        box-shadow: 6px 6px 0 black;
+    }
+}
+
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.CNLogo {
+    border-radius: 100%;
+    flex-wrap:row;
+}
+
+.CNLogo:hover {
+    animation: rotate 4s infinite
+}
+
+@keyframes rotate {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.star-five {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: rgb(121, 121, 121);
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid rgb(121, 121, 121);
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+  }
+  .star-five:before {
+    border-bottom: 80px solid rgb(121, 121, 121);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+  .star-five:after {
+    position: absolute;
+    display: block;
+    color: rgb(121, 121, 121);
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid rgb(121, 121, 121);
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+
+  .diamond {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: rgb(121, 121, 121);
+    position: relative;
+    top: -50px;
+  }
+  .diamond:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top-color: rgb(121, 121, 121);
+  }
+
+  .triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+  }
